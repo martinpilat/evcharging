@@ -1,0 +1,8 @@
+{
+  "max_gen": 250,
+  "pop_size": 16,
+  "sigma": 0.1,
+  "log_prefix": "advnn_hh",
+  "cpus": 8,
+  "planner": "planners.AdvancedNNPlanner([12, 5, 1], [utils.relu, utils.ident], True)"
+}

@@ -1,0 +1,8 @@
+{
+  "max_gen": 250,
+  "pop_size": 16,
+  "sigma": 0.1,
+  "log_prefix": "advnn_hh_time",
+  "cpus": 8,
+  "planner": "planners.AdvancedNNPlannerTime([15, 5, 1], [utils.relu, utils.sigmoid], True)"
+}

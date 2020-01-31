@@ -1,0 +1,7 @@
+{
+  "max_gen": 250,
+  "sigma": 0.1,
+  "log_prefix": "grad_advnn_all",
+  "cpus": 8,
+  "planner": "planners.AdvancedNNPlanner([17, 5, 1], [utils.relu, utils.sigmoid], False)"
+}
